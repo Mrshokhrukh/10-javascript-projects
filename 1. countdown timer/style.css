@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21, 21, 21);
+}
+
+.container {
+  height: 60vh;
+  width: 650px;
+}
+.text {
+  background-color: dodgerblue;
+  padding: 25px;
+  margin-top: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.text:hover {
+  background-color: rgb(94, 205, 252);
+}
+
+.main {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+.main > div {
+  display: flex;
+  gap: 10px;
+}
