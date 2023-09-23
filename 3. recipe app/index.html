@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="recipe_app container">
+      <header>
+        <input type="text" placeholder="Search..." />
+        <button><ion-icon name="search-outline"></ion-icon></button>
+      </header>
+
+      <div class="fev_cont">
+        <h3>Fvorite Meals</h3>
+        <ul class="fev_meals">
+          <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt=""
+            /><span>Lime</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview"
+              alt=""
+            /><span> Carbonare </span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/qpqtuu1511386216.jpg"
+              alt=""
+            /><span>Lasagna</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/media/meals/1550442508.jpg"
+              alt=""
+            /><span>choco</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="meals">
+        <span class="random">Random recipe</span>
+        <div class="meal">
+          <div class="m_header">
+            <img
+              src="https://www.themealdb.com/images/media/meals/1520083578.jpg"
+              alt=""
+            />
+          </div>
+          <div class="m_body">
+            <h4>Vaggie vagies</h4>
+            <button><ion-icon name="heart-outline"></ion-icon></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

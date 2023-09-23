@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgb(26, 26, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Poppins;
+}
+
+.recipe_app {
+  background-color: white;
+  width: 400px;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  padding: 1rem 1rem 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header input {
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background-color: rgb(224, 224, 224);
+  font-family: Poppins;
+}
+
+header button {
+  border-radius: 3px;
+  color: gray;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fev_cont {
+  padding: 16px;
+  /* text-align: center; */
+}
+.fev_cont h3 {
+  padding: 0 0 15px 0;
+}
+.fev_meals {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+.fev_meals li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 55px;
+}
+.fev_meals li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid rgb(215, 214, 214);
+  cursor: pointer;
+}
+.fev_meals li span {
+  font-size: 10px;
+  font-weight: 500;
+}
